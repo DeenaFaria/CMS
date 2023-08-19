@@ -1,0 +1,147 @@
+.header{
+	background-color:SeaGreen;
+    text-align:center;
+	color:white;
+	padding-top:10px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+}
+.footer{
+	text-align:center;
+	
+	padding-bottom:20px;
+	
+	background-color:gray;
+	color:white;
+	padding-top:5px;
+	padding-left:5px;
+	margin-top:2700px;
+	
+}
+.regi{
+	text-align:center;
+	background-color:lightgray;
+	margin-left:500px;
+	margin-right:500px;
+	padding-top:50px;
+	padding-left:20px;
+	padding-right:10px;
+	padding-bottom:40px;
+	border: 2px solid #555;
+}
+h2{
+	color:gray;
+	text-align:center;
+	
+}
+h3{
+	color:navy;
+	
+	text-align:center;
+}
+h5{
+	color:grey;
+	padding-left:150px;
+	font-family:Times New Roman;
+	font-size:30px;
+}
+p{
+	font-family:Times New Roman;
+	font-size:16px;
+	font-style:Sans-serif;
+}
+
+body{
+	background-color:SeaShell;
+	
+}
+.navbar{
+	overflow:hidden;
+	position:fixed;
+	top:0;
+	width:100%;
+	transition:top 0.3s;
+}
+.main{
+	margin-top:50px;
+}
+ul {
+	
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+  overflow: hidden;
+  background-color: lightgray;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:18px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: silver;
+}
+
+
+
+a:link, a:visited{
+	
+	color:blue;
+	padding:4px 5px;
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+	
+}
+a:hover, a:active{
+	background-color:lightgreen;
+}
+.label{
+	float:left;
+	width:25%;
+	text-align:left;
+	margin-right:5px;
+}
+.input{
+	float:left;
+	width:70%;
+}
+
+table{
+	border-collapse:collapse;
+	width:50%;
+	background-color:lightgray;
+}
+table,th,td{
+	border:1px solid black;
+    width:800px;
+	height:50px;
+	padding-left:20px;
+	color:navy;
+		
+}
+th{
+	height:50px;
+	background-color:gray;
+	color:white;
+	
+}
+tr:hover{
+	background-color:#f5f5f5;
+	height:50px;
+}
+a.author{
+	color:blue;
+	background-color:lightgreen;
+}

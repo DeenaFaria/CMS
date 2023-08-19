@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>Register|Admin|Conference Management System</title>
+ <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css" >
+  <div class="header">
+<h1>Welcome to Conference Management System</h1>
+</div>
+</head>
+<body>
+<h3>Register Here</h3>
+<div class="regi">
+<center>
+<form method="post" action="regi.php">
+<center><div class="label">Name:</div>   <div class="input"> <input type="text" name="name" required></div></center><br><br>
+<center><div class="label">Address:</div> <div class="input">  <input type="text" name="address" required></div></center><br><br>
+<center><div class="label">Phone: </div>  <div class="input">  <input type="text" name="phone" required></div></center><br><br>
+<center><div class="label">Username:</div><div class="input">  <input type="text" name="uname" required></div></center><br><br>
+<center><div class="label">Password:</div> <div class="input"> <input type="password" name="pass" id="pass" onchange="check_pass();" pattern=".{6,}" required title="6 characters minimum"></div></center><br><br>
+<input type="checkbox" onclick="show()">Show Password
+<br><br>
+<center><div class="label">Confirm Password:</div> <div class="input"> <input type="password" name="conpass" id="conpass" onchange="check_pass();" pattern=".{6,}" required title="6 characters minimum"></div></center><br><br>
+<input type="checkbox" onclick="showcon()">Show Password
+<br><br>
+<input type="submit" value="Sign Up" id="submit" disabled>
+<input type="reset">
+</form>
+</center>
+</div>
+</body>
+<script>
+function show(){
+	var x=document.getElementById("pass");
+	if(x.type==="password"){
+		x.type="text";
+	}
+	else{
+    	x.type="password";
+	}
+}
+</script>
+<script>
+function showcon(){
+	var y=document.getElementById("conpass");
+	if(y.type==="password"){
+		y.type="text";
+	}
+	else{
+    	y.type="password";
+	}
+}
+</script>
+<script>
+function check_pass(){
+if(document.getElementById('pass').value==document.getElementById('conpass').value){
+document.getElementById('submit').disabled=false;
+}
+else{
+document.getElementById('submit').disabled=true;
+}
+}
+</script>	
+</html>

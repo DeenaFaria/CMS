@@ -1,0 +1,219 @@
+.header{
+	background-color:SeaGreen;
+    text-align:center;
+	color:white;
+	padding-top:10px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+}
+.footer{
+	float:left;
+	text-align:center;
+	
+	padding-bottom:20px;
+	
+	background-color:gray;
+	color:white;
+	padding-top:5px;
+	padding-left:5px;
+	margin-top:30px;
+	
+}
+.regi{
+	text-align:center;
+	background-color:lightgray;
+	margin-left:500px;
+	margin-right:500px;
+	padding-top:40px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:30px;
+	border: 1px solid #555;
+}
+.label{
+	float:left;
+	width:32%;
+	text-align:left;
+	margin-right:5px;
+}
+.input{
+	float:left;
+	width:55%;
+}
+.label2{
+	float:left;
+	width:50%;
+	text-align:left;
+	
+}
+.dat{
+	float:left;
+	width:30%;
+	text-align:right;
+}
+
+h2{
+	color:gray;
+	text-align:center;
+	
+}
+h3{
+	color:navy;
+	
+	text-align:center;
+}
+h5{
+	color:grey;
+	padding-left:150px;
+	font-family:Times New Roman;
+	font-size:30px;
+}
+p{
+	font-family:Times New Roman;
+	font-size:16px;
+	font-style:Sans-serif;
+}
+
+body{
+	background-color:SeaShell;
+	
+}
+
+
+.form3 {
+  width: 30%;
+  margin: 100px auto;
+  padding: 30px;
+  border: 1px solid #555;
+  background-color:silver;
+}
+
+a.edit:link, a.edit:visited{
+	background-color:blue;
+	color:white;
+	padding:14px 25px;
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+	
+}
+a.delete:link, a.delete:visited{
+	background-color:red;
+	color:white;
+	padding:14px 25px;
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+	
+}
+
+a.one:link, a.one:visited{
+	background-color:green;
+	color:white;
+	padding:14px 25px;
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+	
+}
+a.paper:link, a.paper:visited{
+	color:blue;
+	padding:4px 25px;
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+	
+}
+a.one:hover, a.one:active{
+	background-color:lightgreen;
+}
+a.edit:hover, a.edit:active{
+	background-color:lightblue;
+}
+a.delete:hover, a.delete:active{
+	background-color:orange;
+}
+a.paper:hover, a.paper:active{
+	background-color:lightgreen;
+}
+
+.call{
+	text-align:center;
+	float:left;
+	margin-top:50px;
+	margin-left:200px;
+	margin-right:80px;
+	padding-left:60px;
+}
+.loads{
+	text-align:center;
+	float:left;
+	margin-top:50px;
+	margin-left:200px;
+	margin-right:80px;
+}
+.loads1{
+	text-align:center;
+	float:left;
+	margin-top:50px;
+	margin-left:300px;
+	margin-right:100px;
+}
+
+.address{
+	padding-left:100px;
+	float:left;
+	background-color:gray;
+	padding-right:50px;
+	padding-bottom:20px;
+}
+.mobile{
+	padding-left:100px;
+	float:left;
+	background-color:gray;
+	padding-right:50px;
+	padding-bottom:20px;
+}
+.email{
+	padding-left:100px;
+	float:left;
+	background-color:gray;
+	padding-right:220px;
+	padding-bottom:20px;
+}
+.map{
+	padding-left:350px;
+}
+
+table{
+	border-collapse:collapse;
+	width:50%;
+	background-color:lightgray;
+}
+table,th,td{
+	border:1px solid navy;
+    width:1000px;
+	height:50px;
+	padding-left:20px;
+	color:navy;
+		
+}
+th{
+	height:50px;
+	background-color:gray;
+	color:White;
+	
+}
+tr:hover{
+	background-color:Linen;
+	height:50px;
+}
+.container2{
+	width:500px;
+	clear:both;
+}
+.container2 input{
+	width:100%;
+	clear:both;
+}

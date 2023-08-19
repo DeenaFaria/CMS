@@ -1,0 +1,74 @@
+<html>
+<head>
+<title>Login</title>
+ <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css" >
+  <div class="header">
+<h1>Welcome to Conference Management System</h1>
+</div>
+</head>
+<body>
+<center>
+
+
+<h3>Log in here</h3><br>
+
+<!-- The Modal -->
+<div id="id01" class="modal">
+
+
+  <!-- Modal Content -->
+  <form class="modal-content animate" action="log.php">
+    <div class="imgcontainer">
+      <img src="avatar.png" alt="Avatar" class="avatar">
+    </div>
+	<br><br>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required><br><br>
+
+      <label for="pass"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="pass" id="pass" required><br><br>
+	  <input type="checkbox" onclick="show()">Show Password
+				<br><br>
+            
+                <script>
+				function show(){
+					var x=document.getElementById("pass");
+					if(x.type==="password"){
+						x.type="text";
+					}
+					else{
+						x.type="password";
+					}
+				}
+				</script>
+
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me <br><br>
+      </label>
+    </div>
+  </form>
+</div>
+
+	<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>		
+        </section> 
+    </div> 
+
+
+</center>
+</body>
+</html>

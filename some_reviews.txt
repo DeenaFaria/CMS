@@ -1,0 +1,13 @@
+In this paper, the author recommend a blockchain framework that secures the online examination system. The proposed framework has been used
+to secure a data management system that will connect to existing educational data.
+
+
+This paper is a borderline paper, I think. It should be broadly revised before acceptance.
+
+Advancing and teaching cybersecurity skills for policing
+
+The digital society poses different types of challenges to the police force.
+
+cybersecurity, police
+
+Cyber security and artificial intelligence (AI) are two emerging technologies in the modern day world. Machine learning(ML) models are the building block of AI. Access control, user authentication and behavior analysis, spam, malware, and botnet detection everywhere AI plays a prudent role.
